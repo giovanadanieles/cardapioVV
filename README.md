@@ -1,2 +1,0 @@
-# cardapioVV
-Created with CodeSandbox

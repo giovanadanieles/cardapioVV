@@ -1,0 +1,159 @@
+:root {
+  --cor-primaria: #4caf50;
+  --cor-primaria-light: #80e27e;
+  --cor-primaria-dark: #087f23;
+  --cor-secundaria: #e8f5e9;
+  --cor-secundaria-light: #ffffff;
+  --cor-secundaria-dark: #b6c2b7;
+  --color-texto: #000000;
+}
+
+body {
+  margin: 0;
+  font-family: arial;
+}
+
+nav {
+  background: var(--cor-primaria-dark);
+  text-align: right;
+  font-size: 24px;
+}
+
+nav a {
+  display: inline-block;
+  color: var(--cor-secundaria);
+  text-align: center;
+  text-decoration: none;
+  padding: 30px 45px;
+}
+
+nav a:hover {
+  background: var(--cor-primaria);
+}
+
+header {
+  background: var(--cor-primaria-dark);
+  color: var(--cor-secundaria-light);
+  text-align: center;
+  font-size: 72px;
+  padding: 30px 120px;
+  overflow: hidden;
+
+  clip-path: ellipse(100% 55% at 48% 44%);
+}
+
+main {
+}
+
+footer {
+  background: var(--cor-primaria-dark);
+  text-align: center;
+  font-size: 16px;
+  padding-top: 35px;
+  padding-bottom: 10px;
+}
+
+a.rodape {
+  display: inline-block;
+  color: var(--cor-secundaria);
+  text-align: center;
+  text-decoration: none;
+  padding-left: 25px;
+}
+
+a.rodape:hover {
+  color: var(--cor-secundaria-light);
+}
+
+p.rodape {
+  color: var(--cor-secundaria);
+}
+
+section {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20%;
+
+  padding: 50px;
+  display: flex;
+}
+
+article {
+  background: var(--cor-primaria);
+  color: white;
+  border-radius: 18px;
+  padding: 0px 0px 30px;
+  margin: 40px;
+}
+
+img#imgLogo {
+  position: relative;
+  float: left;
+  width: 109px;
+  height: auto;
+  border: black;
+  border-style: double;
+  overflow: auto;
+  display: block;
+}
+
+#txtLogo {
+  position: relative;
+
+  text-align: center;
+  border: black;
+  border-style: double;
+}
+
+#pesquisa {
+  background-color: var(--cor-secundaria);
+  border-radius: 30px;
+  width: 400px;
+  display: inline-flex;
+  padding: 3px 3px;
+  margin-top: 10px;
+}
+
+#txtBusca {
+  background-color: transparent;
+  padding-left: 15px;
+  font-style: italic;
+  font-size: 14pt;
+  border: none;
+  flex: 1;
+}
+
+#txtBusca:focus {
+  color: var(--cor-primaria);
+}
+
+#btnBusca {
+  width: 10%;
+  padding-right: 10px;
+}
+
+h1.txtCenter {
+  text-align: center;
+  margin-top: 80px;
+  font-size: 40pt;
+}
+
+img.imgCategoria {
+  display: block;
+  max-width: 250%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+img.imgCategoria:hover {
+  opacity: 0.5;
+}
+
+.txtCategoria {
+  padding-top: 25px;
+}
