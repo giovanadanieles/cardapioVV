@@ -1,0 +1,2 @@
+# cardapioVV
+Final project of the Introduction to Web Development course, whose objective is to build an online menu of vegetarian and vegan products, which simplifies the contact between suppliers and consumers.
