@@ -42,9 +42,6 @@ header {
   clip-path: ellipse(100% 55% at 48% 44%);
 }
 
-main {
-}
-
 footer {
   background: var(--cor-primaria-dark);
   text-align: center;
@@ -73,37 +70,39 @@ section {
   text-align: center;
   align-items: center;
   justify-content: center;
-  margin: 0 20%;
-
-  padding: 50px;
+  margin: 0 10%;
+  padding: 10px 0 60px 0;
   display: flex;
 }
 
 article {
-  background: var(--cor-primaria);
+  background: var(--cor-primaria-dark);
   color: white;
   border-radius: 18px;
   padding: 0px 0px 30px;
-  margin: 40px;
+  margin: 15px;
 }
 
 img#imgLogo {
   position: relative;
   float: left;
-  width: 109px;
+  width: 350px;
   height: auto;
   border: black;
-  border-style: double;
-  overflow: auto;
+  /*border-style: double;
+  overflow: auto;*/
   display: block;
+  bottom: 60px;
+  right: 40px;
 }
 
 #txtLogo {
   position: relative;
-
-  text-align: center;
-  border: black;
-  border-style: double;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  text-align: left;
+  /*border: black;
+  border-style: double;*/
 }
 
 #pesquisa {
@@ -113,6 +112,7 @@ img#imgLogo {
   display: inline-flex;
   padding: 3px 3px;
   margin-top: 10px;
+  margin-right: px;
 }
 
 #txtBusca {
@@ -141,8 +141,7 @@ h1.txtCenter {
 
 img.imgCategoria {
   display: block;
-  max-width: 250%;
-  height: auto;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 
@@ -151,9 +150,16 @@ img.imgCategoria {
 }
 
 img.imgCategoria:hover {
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 .txtCategoria {
   padding-top: 25px;
+}
+
+p.direita {
+  text-align: right;
+  font-style: italic;
+  font-size: 12pt;
+  padding-bottom: 30px;
 }
